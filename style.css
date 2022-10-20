@@ -1,0 +1,44 @@
+h3 {
+    
+    color: green;
+background-color: rgba(0, 0, 0, 0.2);
+
+}
+div {
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    background-color: lightblue;
+    border: 1px solid black;
+    font size: 12px;
+    font weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.green {
+    color: green;
+}
+
+.brown {
+
+    color: brown;
+}
+
+#title {
+    font-weight: bold;
+    color: purple;
+}
+
+section {
+    height: 80vh;
+    border: 1px solid black;
+}
+
+#home {
+    color: red;
+}
+
+#homesection {
+    color: orange;
+}
+
