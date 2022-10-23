@@ -1,0 +1,33 @@
+div {
+    transition: background-color 300ms;
+}
+
+div::after {
+content: " Frontent Simplified";
+}
+
+div:hover {
+    
+    background-color: aqua;
+}
+
+button {
+animation: float 2s infinite alternate-reverse;
+transform: translateY(10px)
+    transition: all 300ms;
+
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
+
+@keyframes float {
+    0% {transform: translateY(0)
+
+    }
+    100% {transform:translateY(10px)
+        
+    }
+}
